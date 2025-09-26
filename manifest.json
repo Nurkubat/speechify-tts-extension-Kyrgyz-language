@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Speechify TTS Test",
+  "version": "1.0",
+  "description": "Test Speechify TTS API from extension UI using the Kyrgyz language (language: ky-KG).",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://api.sws.speechify.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

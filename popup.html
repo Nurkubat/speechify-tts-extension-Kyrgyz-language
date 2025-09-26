@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speechify TTS Test</title>
+  <style>
+    body { font-family: sans-serif; margin: 1em; min-width: 300px; }
+    textarea { width: 100%; height: 80px; font-size: 1em; }
+    button { margin-top: 1em; padding: 0.5em 1.5em; font-size: 1em; }
+    #tts-audio { width: 100%; margin-top: 1em; display: none; }
+  </style>
+</head>
+<body>
+  <h3>Speechify TTS</h3>
+  <textarea id="tts-text" placeholder="Текст жазыңыз..."></textarea><br>
+  <button id="tts-btn">Оку</button>
+  <audio id="tts-audio" controls></audio>
+  <script src="popup.js"></script>
+</body>
+</html>
