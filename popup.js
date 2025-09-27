@@ -6,7 +6,7 @@ document.getElementById('tts-btn').onclick = async function() {
   const response = await fetch("https://api.sws.speechify.com/v1/audio/stream", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer 2gwH9XgNUqjMQ6DWmZGCrliLwo9iMTUcYHRf2WwtKHg=",
+      "Authorization": "Bearer YOUR_API_KEY_HERE",
       "Accept": "audio/mpeg",
       "Content-Type": "application/json"
     },
