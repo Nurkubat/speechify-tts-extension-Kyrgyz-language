@@ -13,6 +13,18 @@
 <body>
   <h3>Speechify TTS</h3>
   <textarea id="tts-text" placeholder="Текст жазыңыз..."></textarea><br>
+  <fieldset style="margin-top: 0.5em;">
+    <legend>Үн тандоо:</legend>
+    <label>
+      <input type="radio" name="voice" value="2a9c46a8-00b1-4e8a-88f6-1036104b2887" checked>
+      Асан (эркек)
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="voice" value="9d89de10-067e-4598-a186-5ec0510354a4">
+      Айгүл (аял)
+    </label>
+  </fieldset>
   <button id="tts-btn">Оку</button>
   <audio id="tts-audio" controls></audio>
   <script src="popup.js"></script>
